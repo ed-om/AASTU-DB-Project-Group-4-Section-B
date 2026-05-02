@@ -1,0 +1,20 @@
+[
+  {
+    "Customer_ID": "CUST001",
+    "Name": "Abebe Kebede",
+    "Email": "abebe@email.com",
+    "City": "Addis Ababa"
+  },
+  {
+    "Customer_ID": "CUST002",
+    "Name": "Sara Tekle",
+    "Email": "sara@email.com",
+    "City": "Nazret"
+  },
+  {
+    "Customer_ID": "CUST003",
+    "Name": "Eden Samuel",
+    "Email": "eden@gmail.com",
+    "City": "Addis Ababa"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "Shipment_ID": "SHP-1001",
+    "Order_ID": "ORD-550",
+    "Tracking_Number": "ETH-99A-22",
+    "Delivery_status": "Delivered",
+    "Ship_date": "2026-04-30",
+    "Courier_Details": {
+      "Courier_ID": "COUR-01",
+      "Name": "Dawit Haile",
+      "Veichle_type": "Motorcycle"
+    }
+  },
+  {
+    "Shipment_ID": "SHP-1002",
+    "Order_ID": "ORD-551",
+    "Tracking_Number": "ETH-11B-33",
+    "Delivery_status": "In Transit",
+    "Ship_date": "2026-05-02",
+    "Courier_Details": {
+      "Courier_ID": "COUR-02",
+      "Name": "Tekle Abebe",
+      "Veichle_type": "Van"
+    }
+  },
+  {
+    "Shipment_ID": "SHP-1003",
+    "Order_ID": "ORD-552",
+    "Tracking_Number": "ETH-44C-55",
+    "Delivery_status": "Pending",
+    "Ship_date": "2026-05-02",
+    "Courier_Details": {
+      "Courier_ID": "COUR-01",
+      "Name": "Dawit Haile",
+      "Veichle_type": "Motorcycle"
+    }
+  }
+]
