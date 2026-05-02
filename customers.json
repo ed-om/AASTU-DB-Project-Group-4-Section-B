@@ -1,20 +1,26 @@
 [
   {
-    "Customer_ID": "CUST001",
-    "Name": "Abebe Kebede",
+    "Customer_ID": "0001",
+    "First_name": "Abebe",
+    "Last_name": "Kebede",
     "Email": "abebe@email.com",
-    "City": "Addis Ababa"
+    "Customer_address": "Addis Ababa",
+    "Phone": "+251934672210"
   },
   {
-    "Customer_ID": "CUST002",
-    "Name": "Sara Tekle",
+    "Customer_ID": "0002",
+    "First_name": "Sara",
+    "Last_name": "Tekle",
     "Email": "sara@email.com",
-    "City": "Nazret"
+    "Customer_address": "Nazret",
+    "Phone": "+251980432999"
   },
   {
-    "Customer_ID": "CUST003",
-    "Name": "Eden Samuel",
+    "Customer_ID": "0003",
+    "First_name": "Eden",
+    "Last name": "Samuel",
     "Email": "eden@gmail.com",
-    "City": "Addis Ababa"
+    "Customer_address": "Addis Ababa",
+    "Phone": "+251906781094"
   }
 ]
