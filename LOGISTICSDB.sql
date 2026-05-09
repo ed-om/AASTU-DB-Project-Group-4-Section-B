@@ -4,8 +4,14 @@ Customer_ID INT PRIMARY KEY,
 First_Name VARCHAR(50),
 Last_Name VARCHAR(50),
 Email VARCHAR(100),
-Phone VARCHAR(20),
 Customer_Address VARCHAR(255)
+);
+CREATE TABLE customer_phones (
+Phone_ID INT PRIMARY KEY AUTO_INCREMENT,
+Customer_ID INT,
+Phone_Number VARCHAR(20),
+Phone_Type VARCHAR(20), -- e.g., 'Mobile', 'Work'
+FOREIGN KEY (Customer_ID) REFERENCES customers(Customer_ID)
 );
 
 CREATE TABLE products(
@@ -21,6 +27,12 @@ Name VARCHAR(100),
 Phone VARCHAR(50),
 Vehicle_Type VARCHAR(50),
 License_Number VARCHAR(50)
+);
+CREATE TABLE courier_phones (
+Phone_ID INT PRIMARY KEY AUTO_INCREMENT,
+Courier_ID INT,
+Phone_Number VARCHAR(20),
+FOREIGN KEY (Courier_ID) REFERENCES couriers(Courier_ID)
 );
 CREATE TABLE warehouses(
 Warehouse_ID INT PRIMARY KEY,
